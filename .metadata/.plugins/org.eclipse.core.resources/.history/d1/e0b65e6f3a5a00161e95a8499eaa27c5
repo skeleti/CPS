@@ -1,0 +1,10 @@
+package com.cps.data;
+
+public class UserDetailsData {
+	
+	private String userName;
+	private String password;
+	private String role;
+	private String token;
+
+}

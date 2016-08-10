@@ -1,0 +1,25 @@
+package com.rest.service;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.ext.Provider;
+
+@Provider
+@Path("secure")
+public interface ISecureService {
+	
+	@Path("auth")
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	public Response authenticate(Credentials credentials);
+	
+	@Secured
+	@Path("save")
+	@POST
+	@Consumes("application/json")
+	public Response saveData(Credentials credentials);
+
+}

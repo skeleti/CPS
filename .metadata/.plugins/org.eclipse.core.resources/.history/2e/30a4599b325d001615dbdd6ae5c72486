@@ -1,0 +1,7 @@
+package com.cps.dao.impl;
+
+import com.cps.dao.ILoginDao;
+
+public class LoginDao implements ILoginDao {
+
+}

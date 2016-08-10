@@ -1,0 +1,27 @@
+package com.cps.servie.rest;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+
+import com.cps.data.UserDetailsData;
+
+
+@Path("user")
+public interface IUserManagementRestService {
+	
+	@Path("new")
+	@Consumes("application/json")
+	@Produces("application/json")
+	public void createUser(String user);
+	
+	@Path("update")
+	@Consumes("application/json")
+	@Produces("application/json")
+	public void updateUser(String user);
+	
+	@Path("new")
+	@Produces("application/json")
+	public String getUserDetails(String userName, String password);
+
+}

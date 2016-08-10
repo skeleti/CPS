@@ -1,0 +1,5 @@
+package com.cps.servie.rest;
+
+public interface IUserManagementRestService {
+
+}
