@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.01" errors="0" skipped="0" tests="1" name="jar.AppTest">
+<testsuite failures="0" time="0.009" errors="0" skipped="0" tests="1" name="jar.AppTest">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="/usr/java/jdk1.7.0_79/jre/lib/amd64"/>
@@ -19,7 +19,7 @@
     <property name="basedir" value="/home/santoshkeleti/MDWorkspace/CPS-Data"/>
     <property name="java.endorsed.dirs" value="/usr/java/jdk1.7.0_79/jre/lib/endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="/tmp/surefirebooter4625972516130723802.jar"/>
+    <property name="surefire.real.class.path" value="/tmp/surefirebooter652789620430035995.jar"/>
     <property name="java.io.tmpdir" value="/tmp"/>
     <property name="line.separator" value="
 "/>
@@ -42,7 +42,7 @@
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="/usr/java/jdk1.7.0_79/jre"/>
-    <property name="sun.java.command" value="/tmp/surefirebooter4625972516130723802.jar /tmp/surefire5855822790349550446tmp /tmp/surefire3507528768938019756tmp"/>
+    <property name="sun.java.command" value="/tmp/surefirebooter652789620430035995.jar /tmp/surefire3871623899628632528tmp /tmp/surefire2685840364873616401tmp"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -59,5 +59,5 @@
     <property name="sun.desktop" value="gnome"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase time="0.002" classname="jar.AppTest" name="testApp"/>
+  <testcase time="0.001" classname="jar.AppTest" name="testApp"/>
 </testsuite>

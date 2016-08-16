@@ -1,8 +1,8 @@
 angular.module('myApp').factory('myfact', ['$resource',function($resource) {
-return $resource('http://192.168.1.220:8080/kls-application-1.1.0.0/json/master/bankParameter',{},{
+return $resource('http://192.168.1.220:8080//CPS-Application/services/user/get',{},{
 	getData : {
 			method: 'GET',
-			isArray : true,
+			isArray : false,
 			cache : false
 }
 })

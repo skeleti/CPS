@@ -1,4 +1,4 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.cps.dao.ILoginDao"><rhs name\="com.cps.dao.impl.LoginDao"/></lhs></history>
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.cps.dao.ILoginDao"><rhs name\="com.cps.dao.impl.LoginDao"/></lhs><lhs name\="com.cps.servie.IloginService"><rhs name\="com.cps.servie.impl.LoginService"/></lhs><lhs name\="org.apache.log4j.Category"><rhs name\="org.apache.log4j.Logger"/></lhs><lhs name\="org.apache.log4j.spi.AppenderAttachable"><rhs name\="org.apache.log4j.Logger"/></lhs><lhs name\="org.apache.log4j.Logger"><rhs name\="org.apache.log4j.Logger"/></lhs><lhs name\="com.cps.entity.UserDetails"><rhs name\="com.cps.entity.UserDetails"/></lhs><lhs name\="com.cps.data.UserDetailsData"><rhs name\="com.cps.data.UserDetailsData"/></lhs></history>
 content_assist_number_of_computers=13
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=26,26,26

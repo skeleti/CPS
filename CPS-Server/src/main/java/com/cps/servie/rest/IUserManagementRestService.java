@@ -6,25 +6,28 @@ import javax.ws.rs.POST;
 import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
+import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.MediaType;
 
-@Path("user")
+
+@Path("/user")
 public interface IUserManagementRestService {
 
 	@POST
-	@Path("new")
+	@Path("/new")
 	@Consumes("application/json")
 	@Produces("application/json")
 	public void createUser(String user);
 
 	@PUT
-	@Path("update")
+	@Path("/update")
 	@Consumes("application/json")
 	@Produces("application/json")
 	public void updateUser(String user);
 
 	@GET
-	@Path("get")
-	@Produces("application/json")
-	public String getUserDetails(String userName, String password);
+	@Path("/get")
+	@Produces(MediaType.APPLICATION_JSON)
+	public String getUserDetails(@QueryParam("userName") String userName, @QueryParam("password") String password);
 
 }

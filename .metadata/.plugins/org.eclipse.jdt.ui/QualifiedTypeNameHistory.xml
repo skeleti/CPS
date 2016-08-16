@@ -5,10 +5,7 @@
 <fullyQualifiedTypeName name="javax.persistence.Id"/>
 <fullyQualifiedTypeName name="javax.persistence.Column"/>
 <fullyQualifiedTypeName name="javax.persistence.Basic"/>
-<fullyQualifiedTypeName name="com.cps.entity.UserDetails"/>
-<fullyQualifiedTypeName name="com.cps.dao.ILoginDao"/>
 <fullyQualifiedTypeName name="com.cps.dao.impl.LoginDao"/>
-<fullyQualifiedTypeName name="com.cps.data.UserDetailsData"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Path"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Consumes"/>
 <fullyQualifiedTypeName name="javax.ws.rs.Produces"/>
@@ -16,5 +13,21 @@
 <fullyQualifiedTypeName name="javax.ws.rs.PUT"/>
 <fullyQualifiedTypeName name="javax.ws.rs.GET"/>
 <fullyQualifiedTypeName name="javax.ws.rs.ext.Provider"/>
+<fullyQualifiedTypeName name="com.cps.servie.IloginService"/>
+<fullyQualifiedTypeName name="com.cps.servie.impl.LoginService"/>
+<fullyQualifiedTypeName name="com.cps.servie.factory.CPSServiceFactory"/>
+<fullyQualifiedTypeName name="org.slf4j.Logger"/>
+<fullyQualifiedTypeName name="org.apache.log4j.Logger"/>
 <fullyQualifiedTypeName name="com.cps.servie.rest.UserManagementRestService"/>
+<fullyQualifiedTypeName name="javax.ws.rs.QueryParam"/>
+<fullyQualifiedTypeName name="com.google.gson.Gson"/>
+<fullyQualifiedTypeName name="com.google.gson.GsonBuilder"/>
+<fullyQualifiedTypeName name="com.cps.dao.ILoginDao"/>
+<fullyQualifiedTypeName name="com.cps.dao.factory.CpsDaoFactory"/>
+<fullyQualifiedTypeName name="com.cps.data.UserDetailsData"/>
+<fullyQualifiedTypeName name="com.cps.servie.helper.LoginHelper"/>
+<fullyQualifiedTypeName name="com.cps.dao.util.EntityManagerUtil"/>
+<fullyQualifiedTypeName name="javax.persistence.Query"/>
+<fullyQualifiedTypeName name="com.cps.entity.UserDetails"/>
+<fullyQualifiedTypeName name="javax.persistence.NoResultException"/>
 </qualifiedTypeNameHistroy>
