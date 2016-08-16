@@ -1,8 +1,0 @@
-package com.cps.dao;
-
-import com.cps.entity.UserDetails;
-
-public interface ILoginDao {
-	public void createUser(UserDetails user);
-
-}

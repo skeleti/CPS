@@ -1,7 +1,0 @@
-package com.cps.dao;
-
-public interface ILoginDao {
-	public void createUser();
-	public 
-
-}

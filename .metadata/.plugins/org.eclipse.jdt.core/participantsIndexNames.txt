@@ -1,9 +1,0 @@
-INDEX VERSION 1.126
-/home/santoshkeleti/MDWorkspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1393964892.index
-/CPS-Application/src/main/java
-/home/santoshkeleti/MDWorkspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1640475273.index
-/CPS-Application/src/main/resources
-/home/santoshkeleti/MDWorkspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/698548434.index
-/ShivaN/src/main/resources
-/home/santoshkeleti/MDWorkspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/433942867.index
-/Shiva/src/main/resources

@@ -1,5 +1,0 @@
-package com.cps.dao.impl;
-
-public class LoginDao {
-
-}

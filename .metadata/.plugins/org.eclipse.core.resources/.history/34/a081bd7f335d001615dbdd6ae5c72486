@@ -1,5 +1,0 @@
-package com.cps.servie;
-
-public interface IloginService {
-
-}

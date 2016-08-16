@@ -1,9 +1,0 @@
-package com.cps.servie.rest;
-
-import javax.ws.rs.Path;
-
-
-@Path("user")
-public interface IUserManagementRestService {
-
-}

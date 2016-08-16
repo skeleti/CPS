@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring accessors="true" comment="Delete element from project &apos;CPS-Dataaccess&apos;&#x0A;- Original project: &apos;CPS-Dataaccess&apos;&#x0A;- Original element: &apos;CPS-Dataaccess/src/main/java/jar&apos;" description="Delete element" element1="/src\/main\/java&lt;jar" elements="1" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1470311666224" subPackages="false" version="1.0"/>
-</session>
