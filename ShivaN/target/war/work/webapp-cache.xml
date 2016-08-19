@@ -4,6 +4,7 @@
       <string>currentBuild</string>
       <path-set>
         <pathsSet class="linked-hash-set">
+          <string>config/config.js</string>
           <string>login.html</string>
           <string>js/logon/restController.js</string>
           <string>js/logon/restFactory.js</string>
@@ -114,6 +115,20 @@
           <string>assets/css/wizard/normalize.css</string>
           <string>assets/css/wizard/jquery.steps.css</string>
           <string>assets/css/font-awesome.css</string>
+          <string>angular/angular-base64-upload.js</string>
+          <string>angular/angular-resource.js</string>
+          <string>angular/angular-strap.tpl.js</string>
+          <string>angular/angular.js</string>
+          <string>angular/angular-strap.js</string>
+          <string>angular/ng-table.js</string>
+          <string>angular/angular-wizard.js</string>
+          <string>angular/dialogs.min.js</string>
+          <string>angular/angular-local-storage.js</string>
+          <string>angular/localize.js</string>
+          <string>angular/ocLazyLoad.js</string>
+          <string>angular/angular-ui-router.min.js</string>
+          <string>angular/angular-sanitize.min.js</string>
+          <string>views/userRegistration.html</string>
           <string>views/index.html</string>
         </pathsSet>
       </path-set>
