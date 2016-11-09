@@ -3,7 +3,10 @@ package com.cps.entity;
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 @Entity
@@ -11,6 +14,9 @@ import javax.persistence.Table;
 public class UserDetails {
 
 	@Id
+	@Column(name="id")
+	@GeneratedValue(generator="userId", strategy= GenerationType.SEQUENCE )
+	@SequenceGenerator(name="userId", sequenceName="seq_userId",allocationSize = 1)
 	private Integer id;
 
 	@Basic

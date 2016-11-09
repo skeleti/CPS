@@ -14,15 +14,24 @@ public class LoginService implements IloginService {
 	private static final Logger logger = Logger.getLogger(LoginService.class);
 
 	@Override
-	public void createUser(UserDetailsData user) {
-		// TODO Auto-generated method stub
-
+	public String createUser(UserDetailsData user) {
+		String response="";
+		try {
+			ILoginDao dao = CpsDaoFactory.getLoginDao();
+			UserDetails master=LoginHelper.getUserDetails(user);
+			dao.createUser(master);
+			response ="User Created successfully";
+		} catch (Exception e) {
+			response =" Error while creating User";
+			e.printStackTrace();
+		}
+		return response;
 	}
 
 	@Override
-	public void updateUser(UserDetailsData user) {
+	public String updateUser(UserDetailsData user) {
 		// TODO Auto-generated method stub
-
+return null;
 	}
 
 	@Override

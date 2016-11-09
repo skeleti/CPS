@@ -18,4 +18,16 @@ public class LoginHelper {
 		return data;
 	}
 
+	public static UserDetails getUserDetails(UserDetailsData data) {
+		UserDetails master = new UserDetails();
+		try {
+			master.setUserName(data.getUserName());
+			master.setPassword(data.getPassword());
+			master.setRole("admin");
+			master.setToken("santosh");
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return master;
+	}
 }

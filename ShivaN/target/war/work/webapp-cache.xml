@@ -98,7 +98,6 @@
           <string>assets/img/prettyPhoto/light_rounded/loader.gif</string>
           <string>assets/img/demoUpload.jpg</string>
           <string>assets/img/user.png</string>
-          <string>assets/img/user.gif</string>
           <string>assets/img/logo-invoice.png</string>
           <string>assets/css/style.css</string>
           <string>assets/css/bootstrap-fileupload.min.css</string>
@@ -128,8 +127,11 @@
           <string>angular/ocLazyLoad.js</string>
           <string>angular/angular-ui-router.min.js</string>
           <string>angular/angular-sanitize.min.js</string>
-          <string>views/userRegistration.html</string>
+          <string>views/userRegistration/userRegController.js</string>
+          <string>views/userRegistration/userRegistration.html</string>
+          <string>views/userRegistration/userRegFactory.js</string>
           <string>views/index.html</string>
+          <string>views/dashBoard.html</string>
         </pathsSet>
       </path-set>
     </entry>

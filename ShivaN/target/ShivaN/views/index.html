@@ -1,4 +1,4 @@
-﻿﻿﻿<!DOCTYPE html>
+﻿﻿﻿﻿﻿<!DOCTYPE html>
 <html ng-app="App">
 <head>
     <meta charset="utf-8" />
@@ -33,7 +33,7 @@
 
                 <a href="message-task.html" class="btn btn-info" title="New Message"><b>30 </b><i class="fa fa-envelope-o fa-2x"></i></a>
                 <a href="message-task.html" class="btn btn-primary" title="New Task"><b>40 </b><i class="fa fa-bars fa-2x"></i></a>
-                <a href="login.html" class="btn btn-danger" title="Logout"><i class="fa fa-exclamation-circle fa-2x"></i></a>
+                <a href="../login.html" class="btn btn-danger" title="Logout"><i class="fa fa-exclamation-circle fa-2x"></i></a>
 
             </div>
         </nav>
@@ -43,7 +43,7 @@
                 <ul class="nav" id="main-menu">
                     <li>
                         <div class="user-img-div">
-                            <img src="assets/img/user.png" class="img-thumbnail" />
+                            <img src="../assets/img/user.png" class="img-thumbnail" />
 
                             <div class="inner-text">
                                 Jhon Deo Alex
@@ -56,7 +56,7 @@
 
 
                     <li>
-                        <a class="active-menu" href="index.html"><i class="fa fa-dashboard "></i>Dashboard</a>
+                        <a class="active-menu" ui-sref="dashBoard"><i class="fa fa-dashboard "></i>Dashboard</a>
                     </li>
                     <li>
                         <a href="#"><i class="fa fa-desktop "></i>User Management <span class="fa arrow"></span></a>
@@ -208,6 +208,9 @@
        <script src="../config/config.js"></script>
    <script src="../js/logon/restController.js"></script>
 	<script src="../js/logon/restFactory.js"></script>
+<script src="userRegistration/userRegFactory.js"></script>
+<script src="userRegistration/userRegController.js"></script>
+	
 
 
 </body>

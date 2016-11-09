@@ -6,6 +6,12 @@ app.config(function($stateProvider,$urlRouterProvider){
 	
 	$stateProvider.state('userRegistration',{
 		url:'/userRegistration',
-		templateUrl: '../views/userRegistration.html'
+		templateUrl: '../views/userRegistration/userRegistration.html',
+                controller :'userRegController' 
+	});
+	
+	$stateProvider.state('dashBoard',{
+		url:'/dashBoard',
+		templateUrl: '../views/dashBoard.html'
 	});
 });

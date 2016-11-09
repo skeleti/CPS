@@ -12,7 +12,15 @@ public class LoginDao implements ILoginDao {
 
 	@Override
 	public void createUser(UserDetails user) {
-		// TODO Auto-generated method stub
+		try {
+			EntityManager em = EntityManagerUtil.getEntityManager();
+			em.getTransaction().begin();
+			em.persist(user);
+			em.getTransaction().commit();
+			
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
 		
 	}
 

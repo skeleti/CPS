@@ -17,13 +17,13 @@ public interface IUserManagementRestService {
 	@Path("/new")
 	@Consumes("application/json")
 	@Produces("application/json")
-	public void createUser(String user);
+	public String createUser(String user);
 
 	@PUT
 	@Path("/update")
 	@Consumes("application/json")
 	@Produces("application/json")
-	public void updateUser(String user);
+	public String updateUser(String user);
 
 	@GET
 	@Path("/get")
