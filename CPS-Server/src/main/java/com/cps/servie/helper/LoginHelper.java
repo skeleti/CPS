@@ -8,10 +8,13 @@ public class LoginHelper {
 	public static UserDetailsData getUserDetailsData(UserDetails master) {
 		UserDetailsData data = new UserDetailsData();
 		try {
-			data.setUserName(master.getUserName());
+			data.setFirstName(master.getFirstName());
+			data.setLastName(master.getLastName());
 			data.setPassword(master.getPassword());
 			data.setRole(master.getRole());
-			data.setToken(master.getToken());
+			data.setEmail(master.getEmail());
+			data.setDob(master.getDob());
+			data.setMobile(master.getMobile());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -21,10 +24,13 @@ public class LoginHelper {
 	public static UserDetails getUserDetails(UserDetailsData data) {
 		UserDetails master = new UserDetails();
 		try {
-			master.setUserName(data.getUserName());
+			master.setFirstName(data.getFirstName());
+			master.setLastName(data.getLastName());
 			master.setPassword(data.getPassword());
-			master.setRole("admin");
-			master.setToken("santosh");
+			master.setRole(data.getRole());
+			master.setEmail(data.getEmail());
+			master.setDob(data.getDob());
+			master.setMobile(data.getMobile());
 		} catch (Exception e) {
 			e.printStackTrace();
 		}

@@ -36,7 +36,7 @@ public class LoginDao implements ILoginDao {
 		UserDetails userDetails = new UserDetails();
 		try {
 			EntityManager em = EntityManagerUtil.getEntityManager();
-			Query query = em.createQuery("select u from UserDetails u where u.userName='"+userName+"' and u.password='"+password+"'");
+			Query query = em.createQuery("select u from UserDetails u where u.email='"+userName+"' and u.password='"+password+"'");
 			userDetails =(UserDetails) query.getSingleResult();
 			
 		} catch (NoResultException ne) {

@@ -1,5 +1,7 @@
 package com.cps.entity;
 
+import java.util.Date;
+
 import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -20,9 +22,13 @@ public class UserDetails {
 	private Integer id;
 
 	@Basic
-	@Column(name = "user_name")
-	private String userName;
+	@Column(name = "first_name")
+	private String firstName;
 
+	@Basic
+	@Column(name = "last_name")
+	private String lastName;
+	
 	@Basic
 	@Column(name = "password")
 	private String password;
@@ -32,8 +38,16 @@ public class UserDetails {
 	private String role;
 
 	@Basic
-	@Column(name = "token")
-	private String token;
+	@Column(name = "email")
+	private String email;
+	
+	@Basic
+	@Column(name = "dob")
+	private Date dob;
+	
+	@Basic
+	@Column(name = "mobile")
+	private String mobile;
 
 	public Integer getId() {
 		return id;
@@ -43,12 +57,20 @@ public class UserDetails {
 		this.id = id;
 	}
 
-	public String getUserName() {
-		return userName;
+	public String getFirstName() {
+		return firstName;
 	}
 
-	public void setUserName(String userName) {
-		this.userName = userName;
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+
+	public String getLastName() {
+		return lastName;
+	}
+
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
 	}
 
 	public String getPassword() {
@@ -67,12 +89,30 @@ public class UserDetails {
 		this.role = role;
 	}
 
-	public String getToken() {
-		return token;
+	public String getEmail() {
+		return email;
 	}
 
-	public void setToken(String token) {
-		this.token = token;
+	public void setEmail(String email) {
+		this.email = email;
 	}
+
+	public Date getDob() {
+		return dob;
+	}
+
+	public void setDob(Date dob) {
+		this.dob = dob;
+	}
+
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	
 
 }
